@@ -29,5 +29,7 @@ function copyPassword(){
     document.execCommand('copy');
 }
 
-btn.addEventListener('click',createPassword);
+btn.addEventListener('click',()=>{
+    createPassword();
+});
 img.addEventListener('click',copyPassword);

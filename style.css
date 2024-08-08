@@ -13,11 +13,13 @@ body{
     width: 90%;
     max-width: 700px;
     
+    
    
     
 
 }
 .display{
+    
      width: 100%;
      margin-top: 50px;
      margin-bottom: 30px;
@@ -31,20 +33,24 @@ body{
 }
 
 .container h1{
+    
     font-weight: 500;
     font-size: 45px;
 }
 .container h1 span{
+
     color:rgb(121, 200, 227);
     border-bottom: 2px solid rgb(153, 229, 254);
     padding-bottom: 20px;
     
 }
 .display img{
+    
     width: 30px;
     cursor: pointer;
 }
 .display input{
+    
     border: 0;
     padding: 5px;
     outline: 0;
@@ -60,7 +66,7 @@ body{
     padding: 15px;
     font-size: 22px;
     font-weight: 400;
-    padding: 17px 20px;
+    padding: 12px 20px;
     background-color:rgb(121, 200, 227);
     border: none;
     border-radius: 8px;
@@ -69,4 +75,73 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+@media only screen and (max-width:900px) {
+         .container{
+              max-width: 500px;
+              width: 80%;
+         }
+}
+@media only screen and (max-width:560px){
+    .container{
+        max-width: 700px;
+        width: 70%;
+    }
+    .container h1{
+        border-bottom: 2px solid rgb(153, 229, 254);
+        padding-bottom: 15px;
+    }
+    .container h1 span{
+        border-bottom: none;
+        
+    }
+    .display{
+        
+            padding: 10px 15px;
+        
+    }
+    
+}
+@media only screen and (max-width:450px){
+    .container{
+        width: 300px;
+        
+        margin: 50px 40px 50px;
+    }
+    .display img{
+        position: relative;
+        right: 10%;
+    }
+    .container h1{
+        max-width: 350px;
+        
+    }
+    .container button{
+        width: 150px;
+        padding: 5px 2px;
+       font-size: 18px;
+        
+
+    }
+    .container button img{
+       position: relative;
+       left: 10px;
+    }
+    .display{
+        padding: 10px 15px;
+    }
+}
+@media only screen and (max-width:390px){
+      .container{
+        width: 300px;
+
+        margin: 50px 10px 10px;
+        
+      }
+      .container button{
+        width: 150px;
+        padding: 5px 2px;
+        
+}
 }

@@ -110,7 +110,7 @@ body{
         margin: 50px 40px 50px;
     }
     .display img{
-    
+           padding: 5px;
     }
     .container h1{
         max-width: 350px;
